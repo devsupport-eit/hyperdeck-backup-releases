@@ -2,15 +2,20 @@
 
 Official releases of **HyperDeck Backup** by Entertainment IT — automated backup of Blackmagic HyperDeck recordings with fan-out to Google Drive, SFTP, and USB drives.
 
-**[⬇ Download the latest release](https://github.com/devsupport-eit/hyperdeck-backup-releases/releases/latest)**
+## Direct downloads (always the latest version)
+
+- **macOS (Apple Silicon):** [HyperDeck-Backup-mac-arm64.dmg](https://github.com/devsupport-eit/hyperdeck-backup-releases/releases/latest/download/HyperDeck-Backup-mac-arm64.dmg)
+- **Windows:** [HyperDeck-Backup-windows.zip](https://github.com/devsupport-eit/hyperdeck-backup-releases/releases/latest/download/HyperDeck-Backup-windows.zip)
+
+Or browse all versions: **[Releases](https://github.com/devsupport-eit/hyperdeck-backup-releases/releases)**
 
 ## Choose your platform
 
 | Platform | File | Notes |
 |----------|------|-------|
-| **macOS** (Apple Silicon) | `HyperDeck-Backup-{version}-mac-arm64.dmg` | Signed with Developer ID. Open the DMG and drag to Applications. |
-| **Windows** | `HyperDeck-Backup-{version}-windows.zip` | Unzip and run `HyperDeck Backup.exe`. If SmartScreen appears, click "More info" → "Run anyway". |
-| **TrueNAS / Docker** | `ghcr.io/devsupport-eit/hyperdeck-backup:{version}` | Public container image — no download needed here. See the install guide PDF attached to each release. |
+| **macOS** (Apple Silicon) | `HyperDeck-Backup-mac-arm64.dmg` | Signed with Developer ID. Open the DMG and drag to Applications. |
+| **Windows** | `HyperDeck-Backup-windows.zip` | Unzip and run `HyperDeck Backup.exe`. If SmartScreen appears, click "More info" → "Run anyway". |
+| **TrueNAS / Docker** | `ghcr.io/devsupport-eit/hyperdeck-backup:{version}` | Public container image — no download needed here. See the [install instructions](https://www.entertainmentit.co/truenas-hyperdeck-install-instructions). |
 
 ## TrueNAS quick reference
 
